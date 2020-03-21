@@ -1,6 +1,10 @@
 import psycopg2
 import sys
 import json
+import subprocess
+
+
+subprocess.call(['./create_database.sh'])
 
 con = None
 
