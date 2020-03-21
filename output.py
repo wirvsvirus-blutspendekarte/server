@@ -2,14 +2,13 @@ from convert2 import getData
 
 def main():
     FOUT = open("output.json", "w")
-    data = getD+ata()
-
-    for i in data:
-        if i[1] == '':
-            data.remove(i)
+    data = getData()
 
 
     for d in data:
+        for i in data:
+            if i[1]== '' and i[5] =='':
+                data.remove(i)
         MOvor = "".join(d[8].split(';')[0])
         DIvor = "".join(d[9].split(';')[0])
         MIvor = "".join(d[10].split(';')[0])
