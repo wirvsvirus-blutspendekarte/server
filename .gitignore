@@ -1,0 +1,9 @@
+# IDEA
+/.idea/
+
+# Python
+__pycache__/
+/venv/
+
+# Local config files
+/instance/
