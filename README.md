@@ -8,6 +8,8 @@ Dependencies:
 - Python 3
 - Flask
 - Flask-RESTful
+- PostgreSQL
+- psycopg2
 
 Install with:
 ```
