@@ -22,6 +22,11 @@ try:
     for j in importdict[TODO]:
         cur.execute("INSERT INTO Blutspendezentren VALUES(i, j['name'], j['address'], j['zip'], j['city'], j['lat'], j['lon'], j['timings']['mon'], j['timings']['tue'], j['timings']['wed'], , j['timings']['thu'], j['timings']['fri'], j['timings']['sat'], j['timings']['sun'], j['url'], j['phone'], j['whole_blood_donation'], j['platelet_donation'], j['plasma_donation'], j['erythrocytes_donation'])")
         i += 1
+
+    cur.execute("CREATE TABLE Spender (Id INTEGER PRIMARY KEY, vorname VARCHAR(50), nachname VARCHAR(50), email VARCHAR(100), handy VARCHAR(25), anmerkungen VARCHAR(max))")
+    cur.execute("CREATE TABLE Termin (Id INTEGER PRIMARY KEY, Blutspendezentrum INTEGER REFERENCES Blutspendezentren(id), Spender INTEGER REFERENCES Spender(Id), Datum DATE, Uhrzeit TIME, Kategorie VARCHAR(12), Bestaetigt VARCHAR(4), Anmerkungen VARCHAR(max))")
+    # Kategorie = Wunsch/ Alternativ 1/ Alternativ 2; Bestaetigt = Ja / Nein
+    
     con.commit()
 
 except psycopg2.DatabaseError as e:
