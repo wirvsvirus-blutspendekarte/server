@@ -1,6 +1,6 @@
 [
     {
-        "name": "Blutspendezentrale Test",
+        "name": "Blutspendezentrale",
         "address": "",
         "zip": "76133",
         "city": "Karlsruhe",
@@ -42,7 +42,7 @@
         "erythrocyte_donation": ""
     },
     {
-        "name": "Zentralinstitut f\u00c3\u00bcr Transfusionsmedizin und Blutspendedienst",
+        "name": "Zentralinstitut f\u00fcr Transfusionsmedizin und Blutspendedienst",
         "address": "Keplerstr. 32",
         "zip": "70174",
         "city": "Stuttgart",
@@ -63,7 +63,7 @@
         "erythrocyte_donation": ""
     },
     {
-        "name": "Institut f\u00c3\u00bcr Transfusionsmedizin und Immunologie",
+        "name": "Institut f\u00fcr Transfusionsmedizin und Immunologie",
         "address": "Friedrich-Ebert-Str. 107",
         "zip": "68167",
         "city": "Mannheim",
@@ -85,9 +85,9 @@
     },
     {
         "name": "",
-        "address": "Otfried-M\u00c3\u00bcller-Stra\u00c3\u0178e 4/1",
+        "address": "Otfried-M\u00fcller-Stra\u00dfe 4/1",
         "zip": "72076",
-        "city": "T\u00c3\u00bcbingen",
+        "city": "T\u00fcbingen",
         "lat": "48.5319",
         "lon": "9.040189999999999",
         "mon": "9:00-19:00",
@@ -105,7 +105,7 @@
         "erythrocyte_donation": ""
     },
     {
-        "name": "Institut f\u00c3\u00bcr klinische Transfusionsmedizin und Immungenetik Ulm",
+        "name": "Institut f\u00fcr klinische Transfusionsmedizin und Immungenetik Ulm",
         "address": "Helmholtzstr. 10",
         "zip": "89081",
         "city": "Ulm",
@@ -126,7 +126,7 @@
         "erythrocyte_donation": ""
     },
     {
-        "name": "Institut f\u00c3\u00bcr Transfusionsmedizin und Gentherapie",
+        "name": "Institut f\u00fcr Transfusionsmedizin und Gentherapie",
         "address": "Hugstetter Str. 55",
         "zip": "79106",
         "city": "Freiburg",
@@ -147,7 +147,7 @@
         "erythrocyte_donation": ""
     },
     {
-        "name": "Abteilung f\u00c3\u00bcr Laboratoriumsmedizin und Krankenhaushygiene RBK",
+        "name": "Abteilung f\u00fcr Laboratoriumsmedizin und Krankenhaushygiene RBK",
         "address": "Auerbachstr. 100",
         "zip": "70376",
         "city": "Stuttgart",
@@ -169,7 +169,7 @@
     },
     {
         "name": "Plasmazentrum Heidelberg",
-        "address": "Hans-B\u00c3\u00b6ckler-Stra\u00c3\u0178e 2a",
+        "address": "Hans-B\u00f6ckler-Stra\u00dfe 2a",
         "zip": "69115",
         "city": "Heidelberg",
         "lat": "49.40602430000001",
@@ -210,10 +210,10 @@
         "erythrocyte_donation": ""
     },
     {
-        "name": "Institut f\u00c3\u00bcr Transfusionsmedizin M\u00c3\u00bcnchen",
+        "name": "Institut f\u00fcr Transfusionsmedizin M\u00fcnchen",
         "address": "Herzog-Heinrich-Str. 4",
         "zip": "80336",
-        "city": "M\u00c3\u00bcnchen",
+        "city": "M\u00fcnchen",
         "lat": "48.133927",
         "lon": "11.5555333",
         "mon": "",
@@ -231,10 +231,10 @@
         "erythrocyte_donation": ""
     },
     {
-        "name": "Klinikum Gro\u00c3\u0178hadern Spendeeinheit - Zellseparation",
-        "address": "Marchioninistra\u00c3\u0178e 15d EG",
+        "name": "Klinikum Gro\u00dfhadern Spendeeinheit - Zellseparation",
+        "address": "Marchioninistra\u00dfe 15d EG",
         "zip": "81375",
-        "city": "M\u00c3\u00bcnchen",
+        "city": "M\u00fcnchen",
         "lat": "48.1128924",
         "lon": "11.4749887",
         "mon": "8:00 Uhr; 10:15 Uhr; 13:00 Uhr; 15:15 Uhr",
@@ -252,10 +252,10 @@
         "erythrocyte_donation": ""
     },
     {
-        "name": "Institut f\u00c3\u00bcr Transfusionsmedizin N\u00c3\u00bcrnberg",
+        "name": "Institut f\u00fcr Transfusionsmedizin N\u00fcrnberg",
         "address": "Heimerichstr. 57",
         "zip": "90419",
-        "city": "N\u00c3\u00bcrnberg",
+        "city": "N\u00fcrnberg",
         "lat": "49.4639739",
         "lon": "11.0628662",
         "mon": "7:00-15:00",
@@ -276,7 +276,7 @@
         "name": "CSL Plasma ",
         "address": "Pfannenschmiedsgasse 5",
         "zip": "90402",
-        "city": "N\u00c3\u00bcrnberg",
+        "city": "N\u00fcrnberg",
         "lat": "49.450202",
         "lon": "11.0778966",
         "mon": "7:30-19:30",
@@ -295,7 +295,7 @@
     },
     {
         "name": "Haema Plasmaspendezentrum Augsburg",
-        "address": "Philippine-Welser-Stra\u00c3\u0178e 8",
+        "address": "Philippine-Welser-Stra\u00dfe 8",
         "zip": "86150",
         "city": "Augsburg",
         "lat": "48.3690115",
@@ -336,10 +336,10 @@
         "erythrocyte_donation": ""
     },
     {
-        "name": "Haema Plasmaspendezentrum F\u00c3\u00bcrth",
+        "name": "Haema Plasmaspendezentrum F\u00fcrth",
         "address": "Hallstr. 9",
         "zip": "90762",
-        "city": "F\u00c3\u00bcrth",
+        "city": "F\u00fcrth",
         "lat": "49.473735",
         "lon": "10.990102",
         "mon": "10:00-18:30",
@@ -378,10 +378,10 @@
         "erythrocyte_donation": ""
     },
     {
-        "name": "Haema Blutspendezentrum M\u00c3\u00bcnchen",
-        "address": "Dachauer Stra\u00c3\u0178e 70",
+        "name": "Haema Blutspendezentrum M\u00fcnchen",
+        "address": "Dachauer Stra\u00dfe 70",
         "zip": "80335",
-        "city": "M\u00c3\u00bcnchen",
+        "city": "M\u00fcnchen",
         "lat": "48.1491845",
         "lon": "11.5587895",
         "mon": "10:00-17:00",
@@ -399,10 +399,10 @@
         "erythrocyte_donation": ""
     },
     {
-        "name": "Haema Blutspendezentrum N\u00c3\u00bcrnberg",
-        "address": "Aufse\u00c3\u0178platz 21",
+        "name": "Haema Blutspendezentrum N\u00fcrnberg",
+        "address": "Aufse\u00dfplatz 21",
         "zip": "90459",
-        "city": "N\u00c3\u00bcrnberg",
+        "city": "N\u00fcrnberg",
         "lat": "49.4406788",
         "lon": "11.0805152",
         "mon": "11:30-18:30",
@@ -441,7 +441,7 @@
         "erythrocyte_donation": ""
     },
     {
-        "name": "Institut f\u00c3\u00bcr Transfusionsmedizin und H\u00c3\u00a4mostaseologie",
+        "name": "Institut f\u00fcr Transfusionsmedizin und H\u00e4mostaseologie",
         "address": "Stenglinstr. 2",
         "zip": "86156",
         "city": "Augsburg",
@@ -462,7 +462,7 @@
         "erythrocyte_donation": ""
     },
     {
-        "name": "Institut f\u00c3\u00bcr Transfusionsmedizin Regensburg",
+        "name": "Institut f\u00fcr Transfusionsmedizin Regensburg",
         "address": "Hoher-Kreuz-Weg 7",
         "zip": "93055",
         "city": "Regensburg",
@@ -483,10 +483,10 @@
         "erythrocyte_donation": ""
     },
     {
-        "name": "Plasmazentrum W\u00c3\u00bcrzburg",
+        "name": "Plasmazentrum W\u00fcrzburg",
         "address": "Virchowstr. 22",
         "zip": "97072",
-        "city": "W\u00c3\u00bcrzburg",
+        "city": "W\u00fcrzburg",
         "lat": "49.7829075",
         "lon": "9.934092",
         "mon": "8:30-18:30",
@@ -504,10 +504,10 @@
         "erythrocyte_donation": ""
     },
     {
-        "name": "Institut f\u00c3\u00bcr Klinische Transfusionsmedizin und H\u00c3\u00a4motherapie",
-        "address": "Oberd\u00c3\u00bcrrbacher Stra\u00c3\u0178e 6",
+        "name": "Institut f\u00fcr Klinische Transfusionsmedizin und H\u00e4motherapie",
+        "address": "Oberd\u00fcrrbacher Stra\u00dfe 6",
         "zip": "97080",
-        "city": "W\u00c3\u00bcrzburg",
+        "city": "W\u00fcrzburg",
         "lat": "49.8070151",
         "lon": "9.958693499999999",
         "mon": "",
@@ -525,7 +525,7 @@
         "erythrocyte_donation": ""
     },
     {
-        "name": "Zentrum f\u00c3\u00bcr Transfusionsmedizin und Zelltherapie Berlin",
+        "name": "Zentrum f\u00fcr Transfusionsmedizin und Zelltherapie Berlin",
         "address": "Schuhmannstr.22(Erdgeschoss)",
         "zip": "10117",
         "city": "Berlin",
@@ -547,7 +547,7 @@
     },
     {
         "name": "CSL Plasma ",
-        "address": "Axel-Springer-Stra\u00c3\u0178e 42",
+        "address": "Axel-Springer-Stra\u00dfe 42",
         "zip": "10969",
         "city": "Berlin",
         "lat": "52.5078137",
@@ -568,7 +568,7 @@
     },
     {
         "name": "Haema Blutspendezentrum Berlin-Charlottenburg",
-        "address": "Wilmersdorfer Stra\u00c3\u0178e 54",
+        "address": "Wilmersdorfer Stra\u00dfe 54",
         "zip": "10627",
         "city": "Berlin",
         "lat": "52.50847",
@@ -610,7 +610,7 @@
     },
     {
         "name": "Haema Blutspedezentrum Tegel",
-        "address": "Berliner Stra\u00c3\u0178e 25",
+        "address": "Berliner Stra\u00dfe 25",
         "zip": "13507",
         "city": "Berlin ",
         "lat": "52.58381",
@@ -631,7 +631,7 @@
     },
     {
         "name": "Haema Blutspendezentrum Wedding ",
-        "address": "Badstra\u00c3\u0178e 4a",
+        "address": "Badstra\u00dfe 4a",
         "zip": "13357",
         "city": "Berlin ",
         "lat": "52.5496484",
@@ -673,7 +673,7 @@
     },
     {
         "name": "Haema Blutspendezentrum Berlin-Marzahn",
-        "address": "Havemannstra\u00c3\u0178e 12b",
+        "address": "Havemannstra\u00dfe 12b",
         "zip": "12689",
         "city": "Berlin ",
         "lat": "52.5691506",
@@ -735,7 +735,7 @@
         "erythrocyte_donation": ""
     },
     {
-        "name": "Institut f\u00c3\u00bcr Transfusionsmedizin Potsdam | Blutspende",
+        "name": "Institut f\u00fcr Transfusionsmedizin Potsdam | Blutspende",
         "address": "Charlottenstr. 72 | Eingang Hebbelstr. 1 | Haus I",
         "zip": "14467",
         "city": "Potsdam",
@@ -749,14 +749,14 @@
         "sat": "",
         "sun": "",
         "url": "https://www.blutspende-nordost.de/blutspende/termine-zur-blutspende/blutspende-plasmaspende-potsdam.php",
-        "phone": "0331 2846\u00e2\u20ac\u201c0",
+        "phone": "0331 2846\u20130",
         "whole_blood_donation": "ja",
         "platelet_donation": "nein",
         "plasma_donation": "nein",
         "erythrocyte_donation": ""
     },
     {
-        "name": "Institut f\u00c3\u00bcr Transfusionsmedizin Potsdam | Plasmaspende",
+        "name": "Institut f\u00fcr Transfusionsmedizin Potsdam | Plasmaspende",
         "address": "Charlottenstr. 72 | Eingang Hebbelstr. 1 |Haus I",
         "zip": "14467",
         "city": "Potsdam",
@@ -770,15 +770,15 @@
         "sat": "",
         "sun": "",
         "url": "https://www.blutspende-nordost.de/blutspende/termine-zur-blutspende/blutspende-plasmaspende-potsdam.php",
-        "phone": "0331 2846\u00e2\u20ac\u201c0",
+        "phone": "0331 2846\u20130",
         "whole_blood_donation": "nein",
         "platelet_donation": "nein",
         "plasma_donation": "ja",
         "erythrocyte_donation": ""
     },
     {
-        "name": "Institut f\u00c3\u00bcr Transfusionsmedizin Cottbus |Blutspende",
-        "address": "Thiemstra\u00c3\u0178e 105",
+        "name": "Institut f\u00fcr Transfusionsmedizin Cottbus |Blutspende",
+        "address": "Thiemstra\u00dfe 105",
         "zip": "03050",
         "city": "Cottbus",
         "lat": "51.7417713",
@@ -791,15 +791,15 @@
         "sat": "",
         "sun": "",
         "url": "https://www.blutspende-nordost.de/blutspende/termine-zur-blutspende/blutspende-plasmaspende-cottbus.php",
-        "phone": "0355 4995\u00e2\u20ac\u201c0",
+        "phone": "0355 4995\u20130",
         "whole_blood_donation": "ja",
         "platelet_donation": "nein",
         "plasma_donation": "nein",
         "erythrocyte_donation": ""
     },
     {
-        "name": "Institut f\u00c3\u00bcr Transfusionsmedizin Cottbus | Plasmaspende",
-        "address": "Thiemstra\u00c3\u0178e 105",
+        "name": "Institut f\u00fcr Transfusionsmedizin Cottbus | Plasmaspende",
+        "address": "Thiemstra\u00dfe 105",
         "zip": "03050",
         "city": "Cottbus",
         "lat": "51.7417713",
@@ -812,7 +812,7 @@
         "sat": "",
         "sun": "",
         "url": "https://www.blutspende-nordost.de/blutspende/termine-zur-blutspende/blutspende-plasmaspende-cottbus.php",
-        "phone": "0355 4995\u00e2\u20ac\u201c0",
+        "phone": "0355 4995\u20130",
         "whole_blood_donation": "nein",
         "platelet_donation": "nein",
         "plasma_donation": "ja",
@@ -820,7 +820,7 @@
     },
     {
         "name": "Haema Blutspendezentrum Brandenburg an der Havel",
-        "address": "Kirchhofstra\u00c3\u0178e 1-2",
+        "address": "Kirchhofstra\u00dfe 1-2",
         "zip": "14776",
         "city": "Brandenburg an der Havel",
         "lat": "52.40570109999999",
@@ -851,7 +851,7 @@
         "wed": "07:30-17:00",
         "thu": "07:30-19:00",
         "fri": "07:30-19:00",
-        "sat": "08:00-13:00 (14-t\u00c3\u00a4gig)",
+        "sat": "08:00-13:00 (14-t\u00e4gig)",
         "sun": "",
         "url": "https://www.haema.de/spendezentren/brandenburg/frankfurt-oder.html",
         "phone": "0335 869 118 20",
@@ -862,7 +862,7 @@
     },
     {
         "name": "Haema Blutspendezentrum Potsdam",
-        "address": "\"Am \"\"Stern-Center\"\" | Nuthestra\u00c3\u0178e 1\"",
+        "address": "\"Am \"\"Stern-Center\"\" | Nuthestra\u00dfe 1\"",
         "zip": "14480",
         "city": "Potsdam",
         "lat": "52.3711652",
@@ -891,7 +891,7 @@
         "mon": "",
         "tue": "",
         "wed": "",
-        "thu": "14:30-18:30 (14-t\u00c3\u00a4gig)",
+        "thu": "14:30-18:30 (14-t\u00e4gig)",
         "fri": "",
         "sat": "",
         "sun": "",
@@ -930,12 +930,12 @@
         "city": "Bremen",
         "lat": "53.0806658",
         "lon": "8.816799399999999",
-        "mon": "7:30 \u00e2\u20ac\u201c 19:00",
-        "tue": "7:30 \u00e2\u20ac\u201c 19:00",
-        "wed": "12:00 \u00e2\u20ac\u201c 19:00",
-        "thu": "7:30 \u00e2\u20ac\u201c 19:00",
-        "fri": "7:30 \u00e2\u20ac\u201c 19:00",
-        "sat": "09:00 \u00e2\u20ac\u201c 15:00",
+        "mon": "7:30 \u2013 19:00",
+        "tue": "7:30 \u2013 19:00",
+        "wed": "12:00 \u2013 19:00",
+        "thu": "7:30 \u2013 19:00",
+        "fri": "7:30 \u2013 19:00",
+        "sat": "09:00 \u2013 15:00",
         "sun": "",
         "url": "www.plasma-spenden.de",
         "phone": "0421/173640",
@@ -946,7 +946,7 @@
     },
     {
         "name": "DRK-Blutspendedienst NSTOB Institut Bremen",
-        "address": "Friedrich-Karl-Stra\u00c3\u0178e 22a",
+        "address": "Friedrich-Karl-Stra\u00dfe 22a",
         "zip": "28205",
         "city": "Bremen",
         "lat": "53.0735174",
@@ -966,8 +966,8 @@
         "erythrocyte_donation": ""
     },
     {
-        "name": "Blutspendedienst Klinikum Bremerhaven Institut f\u00c3\u00bcr Laboratoriums- und Transfusionsmedizin",
-        "address": "Postbrookstra\u00c3\u0178e 103",
+        "name": "Blutspendedienst Klinikum Bremerhaven Institut f\u00fcr Laboratoriums- und Transfusionsmedizin",
+        "address": "Postbrookstra\u00dfe 103",
         "zip": "27574",
         "city": "Bremen",
         "lat": "53.53799",
@@ -1008,8 +1008,8 @@
         "erythrocyte_donation": ""
     },
     {
-        "name": "Institut f\u00c3\u00bcr Transfusionsmedizin",
-        "address": "Martinistra\u00c3\u0178e 52",
+        "name": "Institut f\u00fcr Transfusionsmedizin",
+        "address": "Martinistra\u00dfe 52",
         "zip": "20251",
         "city": "Hamburg",
         "lat": "53.5902421",
@@ -1093,7 +1093,7 @@
     },
     {
         "name": "Blutspendedienst Hamburg Harburg",
-        "address": "L\u00c3\u00bcneburger Str. 25",
+        "address": "L\u00fcneburger Str. 25",
         "zip": "21073",
         "city": "Hamburg",
         "lat": "53.4586534",
@@ -1114,7 +1114,7 @@
     },
     {
         "name": "Blutspende Marburg ",
-        "address": "Baldingerstra\u00c3\u0178e",
+        "address": "Baldingerstra\u00dfe",
         "zip": "35043",
         "city": "Marburg",
         "lat": "50.8161402",
@@ -1134,10 +1134,10 @@
         "erythrocyte_donation": ""
     },
     {
-        "name": "Blutspende Gie\u00c3\u0178en ",
-        "address": "Langhansstra\u00c3\u0178e 7",
+        "name": "Blutspende Gie\u00dfen ",
+        "address": "Langhansstra\u00dfe 7",
         "zip": "35392",
-        "city": "Gie\u00c3\u0178en",
+        "city": "Gie\u00dfen",
         "lat": "50.57429",
         "lon": "8.663",
         "mon": "09:00 - 18:00 Uhr",
@@ -1155,10 +1155,10 @@
         "erythrocyte_donation": ""
     },
     {
-        "name": "Campusspende Gie\u00c3\u0178en / Mobile Blutspende",
+        "name": "Campusspende Gie\u00dfen / Mobile Blutspende",
         "address": "Otto-Behaghel Strasse 27",
         "zip": "35394",
-        "city": "Gie\u00c3\u0178en",
+        "city": "Gie\u00dfen",
         "lat": "50.57650899999999",
         "lon": "8.6908391",
         "mon": "",
@@ -1176,8 +1176,8 @@
         "erythrocyte_donation": ""
     },
     {
-        "name": "Institut f\u00c3\u00bcr Transfusionsmedizin und Immunh\u00c3\u00a4matologie Frankfurt am Main",
-        "address": "Sandhofstra\u00c3\u0178e 1",
+        "name": "Institut f\u00fcr Transfusionsmedizin und Immunh\u00e4matologie Frankfurt am Main",
+        "address": "Sandhofstra\u00dfe 1",
         "zip": "60528",
         "city": "Frankfurt",
         "lat": "50.0919967",
@@ -1198,16 +1198,16 @@
     },
     {
         "name": "CSL Plasma Center ",
-        "address": "Stiftstra\u00c3\u0178e 9-17",
+        "address": "Stiftstra\u00dfe 9-17",
         "zip": "60313",
         "city": "Frankfurt",
         "lat": "50.11522069999999",
         "lon": "8.6824438",
-        "mon": "08:00 \u00e2\u20ac\u201c 19:00 Uhr",
-        "tue": "08:00 \u00e2\u20ac\u201c 19:00 Uhr",
-        "wed": "12:00 \u00e2\u20ac\u201c 19:00 Uhr",
-        "thu": "08:00 \u00e2\u20ac\u201c 19:00 Uhr",
-        "fri": "08:00 \u00e2\u20ac\u201c 19:00 Uhr",
+        "mon": "08:00 \u2013 19:00 Uhr",
+        "tue": "08:00 \u2013 19:00 Uhr",
+        "wed": "12:00 \u2013 19:00 Uhr",
+        "thu": "08:00 \u2013 19:00 Uhr",
+        "fri": "08:00 \u2013 19:00 Uhr",
         "sat": "",
         "sun": "-",
         "url": "https://www.plasma-spenden.de/",
@@ -1229,7 +1229,7 @@
         "wed": "11:00 bis 19:00 Uhr",
         "thu": "11:00 bis 19:00 Uhr",
         "fri": "11:00 bis 19:00 Uhr",
-        "sat": "09:00 \u00e2\u20ac\u201c 16.00 Uhr",
+        "sat": "09:00 \u2013 16.00 Uhr",
         "sun": "",
         "url": "https://www.tmd-blutspende.de/standorte/darmstadt/",
         "phone": "",
@@ -1240,9 +1240,9 @@
     },
     {
         "name": "Blut- und Plasmaspendezentrum",
-        "address": "Bahnhofstr. 96 \u00e2\u20ac\u201c 98",
+        "address": "Bahnhofstr. 96 \u2013 98",
         "zip": "35390",
-        "city": "Gie\u00c3\u0178en",
+        "city": "Gie\u00dfen",
         "lat": "50.57987",
         "lon": "8.663711600000001",
         "mon": "11:00 bis 19:00 Uhr",
@@ -1250,7 +1250,7 @@
         "wed": "11:00 bis 19:00 Uhr",
         "thu": "11:00 bis 19:00 Uhr",
         "fri": "11:00 bis 19:00 Uhr",
-        "sat": "09:00 \u00e2\u20ac\u201c 16.00 Uhr",
+        "sat": "09:00 \u2013 16.00 Uhr",
         "sun": "",
         "url": "https://www.tmd-blutspende.de/standorte/giessen/",
         "phone": "0641/9845160",
@@ -1261,7 +1261,7 @@
     },
     {
         "name": "Blut- und Plasmaspendezentrum",
-        "address": "Untere K\u00c3\u00b6nigsstra\u00c3\u0178e 86",
+        "address": "Untere K\u00f6nigsstra\u00dfe 86",
         "zip": "34117",
         "city": "Kassel ",
         "lat": "51.3204528",
@@ -1281,8 +1281,8 @@
         "erythrocyte_donation": ""
     },
     {
-        "name": "Institut f\u00c3\u00bcr Transfusionsmedizin und Immunh\u00c3\u00a4matologie Kassel",
-        "address": "M\u00c3\u00b6nchebergstra\u00c3\u0178e 57",
+        "name": "Institut f\u00fcr Transfusionsmedizin und Immunh\u00e4matologie Kassel",
+        "address": "M\u00f6nchebergstra\u00dfe 57",
         "zip": "34125",
         "city": "Kassel",
         "lat": "51.32918859999999",
@@ -1303,7 +1303,7 @@
     },
     {
         "name": "Blutspendezentrum Schwerin",
-        "address": "Wismarsche Stra\u00c3\u0178e 298",
+        "address": "Wismarsche Stra\u00dfe 298",
         "zip": "19055",
         "city": "Schwerin",
         "lat": "53.644517",
@@ -1324,7 +1324,7 @@
     },
     {
         "name": "Blutspendezentrum Rostock",
-        "address": "Robert-Koch-Stra\u00c3\u0178e 10",
+        "address": "Robert-Koch-Stra\u00dfe 10",
         "zip": "18059",
         "city": "Rostock",
         "lat": "54.0711716",
@@ -1366,7 +1366,7 @@
     },
     {
         "name": "Haema Blutspendezentrum",
-        "address": "Friedrichstra\u00c3\u0178e 18",
+        "address": "Friedrichstra\u00dfe 18",
         "zip": "19055",
         "city": "Schwerin",
         "lat": "53.63032980000001",
@@ -1387,7 +1387,7 @@
     },
     {
         "name": "Blutspendezentrum Stralsund",
-        "address": "\u00c3\u201erztehaus | Heinrich-Mann-Stra\u00c3\u0178e 64",
+        "address": "\u00c4rztehaus | Heinrich-Mann-Stra\u00dfe 64",
         "zip": "18435",
         "city": "Stralsund",
         "lat": "54.3353",
@@ -1450,7 +1450,7 @@
     },
     {
         "name": "Medizinische Hochschule Hannover Blutspendedienst",
-        "address": "Carl-Neuberg-Stra\u00c3\u0178e 1",
+        "address": "Carl-Neuberg-Stra\u00dfe 1",
         "zip": "30625",
         "city": "Hannover",
         "lat": "52.3834749",
@@ -1471,7 +1471,7 @@
     },
     {
         "name": "Plasma Service Hannover",
-        "address": "Schillerstra\u00c3\u0178e 23",
+        "address": "Schillerstra\u00dfe 23",
         "zip": "30159",
         "city": "Hannover",
         "lat": "52.37569509999999",
@@ -1492,7 +1492,7 @@
     },
     {
         "name": "DRK Blutspendedienst Oldenburg",
-        "address": "Brandemburger Stra\u00c3\u0178e 21",
+        "address": "Brandemburger Stra\u00dfe 21",
         "zip": "26133",
         "city": "Oldenburg",
         "lat": "53.11143",
@@ -1513,7 +1513,7 @@
     },
     {
         "name": "DRK Zentrum Uelzen ",
-        "address": "Ripdorfer Stra\u00c3\u00a9 21",
+        "address": "Ripdorfer Stra\u00e9 21",
         "zip": "29525",
         "city": "Uelzen",
         "lat": "",
@@ -1533,7 +1533,7 @@
         "erythrocyte_donation": "nein "
     },
     {
-        "name": "Institut f\u00c3\u00bcr Labormedizin",
+        "name": "Institut f\u00fcr Labormedizin",
         "address": "Sauerbruchstr. 7",
         "zip": "38440",
         "city": "Wolfsburg",
@@ -1555,7 +1555,7 @@
     },
     {
         "name": "Klinikum Bremerhaven ",
-        "address": "Postbrookstra\u00c3\u0178e 103",
+        "address": "Postbrookstra\u00dfe 103",
         "zip": "75742",
         "city": "Bremerhaven ",
         "lat": "53.53799",
@@ -1576,7 +1576,7 @@
     },
     {
         "name": "DRK Wilhelmshaven",
-        "address": "G\u00c3\u00bcterstra\u00c3\u0178e 30",
+        "address": "G\u00fcterstra\u00dfe 30",
         "zip": "26382",
         "city": "Wilhelmshaven",
         "lat": "53.5217942",
@@ -1599,7 +1599,7 @@
         "name": "Blut- und Plasmaspendezentrum",
         "address": "Kollegienwall 3-4",
         "zip": "49074",
-        "city": "Osnabr\u00c3\u00bcck",
+        "city": "Osnabr\u00fcck",
         "lat": "52.2728438",
         "lon": "8.0513704",
         "mon": "09:00-19:00",
@@ -1620,7 +1620,7 @@
         "name": "Blutspende am Campus",
         "address": "Weender Landstr. 1",
         "zip": "37073",
-        "city": "G\u00c3\u00b6ttingen",
+        "city": "G\u00f6ttingen",
         "lat": "51.5377786",
         "lon": "9.933575",
         "mon": "08:00-14:00",
@@ -1680,8 +1680,8 @@
         "erythrocyte_donation": ""
     },
     {
-        "name": "Uni.Blutspendedienst OWL - Bielefeld Universit\u00c3\u00a4t",
-        "address": "Universit\u00c3\u00a4tsstra\u00c3\u0178e",
+        "name": "Uni.Blutspendedienst OWL - Bielefeld Universit\u00e4t",
+        "address": "Universit\u00e4tsstra\u00dfe",
         "zip": "33615",
         "city": "Bielefeld",
         "lat": "52.0384839",
@@ -1701,10 +1701,10 @@
         "erythrocyte_donation": ""
     },
     {
-        "name": "Uni.Blutspendedienst OWL - B\u00c3\u00bcnde",
+        "name": "Uni.Blutspendedienst OWL - B\u00fcnde",
         "address": "Brunnenallee 35 ",
         "zip": "32257",
-        "city": "B\u00c3\u00bcnde",
+        "city": "B\u00fcnde",
         "lat": "52.1978349",
         "lon": "8.5965726",
         "mon": "-",
@@ -1723,7 +1723,7 @@
     },
     {
         "name": "Uni.Blutspendedienst OWL - Klinikum Kreis Herford",
-        "address": "Schwarzenmoorstra\u00c3\u0178e 70",
+        "address": "Schwarzenmoorstra\u00dfe 70",
         "zip": "32049",
         "city": "Herford",
         "lat": "52.1261728",
@@ -1744,7 +1744,7 @@
     },
     {
         "name": "Uni.Blutspendedienst OWL - Bad Oeynhausen (HDZ)",
-        "address": "Georgstra\u00c3\u0178e 11",
+        "address": "Georgstra\u00dfe 11",
         "zip": "32545",
         "city": "Bad Oeyenhausen",
         "lat": "52.1915868",
@@ -1785,10 +1785,10 @@
         "erythrocyte_donation": ""
     },
     {
-        "name": "Plasma Service K\u00c3\u00b6ln",
+        "name": "Plasma Service K\u00f6ln",
         "address": "Hohenstaufenring 62",
         "zip": "50674",
-        "city": "K\u00c3\u00b6ln",
+        "city": "K\u00f6ln",
         "lat": "50.9333557",
         "lon": "6.940376",
         "mon": "8:00-20:00",
@@ -1807,7 +1807,7 @@
     },
     {
         "name": "Plasmaspende Aachen",
-        "address": "Peterstra\u00c3\u0178e 20-24",
+        "address": "Peterstra\u00dfe 20-24",
         "zip": "52062",
         "city": "Aachen",
         "lat": "50.7756067",
@@ -1827,8 +1827,8 @@
         "erythrocyte_donation": ""
     },
     {
-        "name": "Universit\u00c3\u00a4tsklinikum Bonn Blutspendedienst",
-        "address": "Venusberg-Campus 1 | Geb\u00c3\u00a4ude 43",
+        "name": "Universit\u00e4tsklinikum Bonn Blutspendedienst",
+        "address": "Venusberg-Campus 1 | Geb\u00e4ude 43",
         "zip": "53127",
         "city": "Bonn",
         "lat": "50.7014825",
@@ -1849,7 +1849,7 @@
     },
     {
         "name": "Haema Blutspendezentrum Bonn",
-        "address": "Poststra\u00c3\u0178e 19",
+        "address": "Poststra\u00dfe 19",
         "zip": "5311",
         "city": "Bonn",
         "lat": "50.7334746",
@@ -1869,10 +1869,10 @@
         "erythrocyte_donation": ""
     },
     {
-        "name": "City-Blut-Spende M\u00c3\u00bcnster",
+        "name": "City-Blut-Spende M\u00fcnster",
         "address": "Klarissengasse 9",
         "zip": "48143",
-        "city": "M\u00c3\u00bcnster",
+        "city": "M\u00fcnster",
         "lat": "51.9598247",
         "lon": "7.628708499999999",
         "mon": "12:00-18:00",
@@ -1891,7 +1891,7 @@
     },
     {
         "name": "Blutspendedo Dortmund",
-        "address": "Alexanderstra\u00c3\u0178e 6-10",
+        "address": "Alexanderstra\u00dfe 6-10",
         "zip": "44137",
         "city": "Dortmund",
         "lat": "51.5085139",
@@ -1911,10 +1911,10 @@
         "erythrocyte_donation": ""
     },
     {
-        "name": "Blutspendezentrale Universit\u00c3\u00a4tsklinikum D\u00c3\u00bcsseldorf",
-        "address": "Moorenstra\u00c3\u0178e 5",
+        "name": "Blutspendezentrale Universit\u00e4tsklinikum D\u00fcsseldorf",
+        "address": "Moorenstra\u00dfe 5",
         "zip": "40225",
-        "city": "D\u00c3\u00bcsseldorf",
+        "city": "D\u00fcsseldorf",
         "lat": "51.1965517",
         "lon": "6.7900848",
         "mon": "7:15-14:00",
@@ -1975,7 +1975,7 @@
     },
     {
         "name": "BZD Blutspendezentrum Duisburg",
-        "address": "K\u00c3\u00b6nigsstra\u00c3\u0178e 53",
+        "address": "K\u00f6nigsstra\u00dfe 53",
         "zip": "47051",
         "city": "Duisburg-Mitte",
         "lat": "51.43267",
@@ -2017,7 +2017,7 @@
     },
     {
         "name": "BZG Gelsenkirchen",
-        "address": "Bahnhofstra\u00c3\u0178e 55-65",
+        "address": "Bahnhofstra\u00dfe 55-65",
         "zip": "45879",
         "city": "Gelsenkirchen",
         "lat": "51.5077221",
@@ -2038,7 +2038,7 @@
     },
     {
         "name": "BZW Wuppertal",
-        "address": "Erholungsstra\u00c3\u0178e 19",
+        "address": "Erholungsstra\u00dfe 19",
         "zip": "42103",
         "city": "Wuppertal",
         "lat": "51.25741679999999",
@@ -2059,7 +2059,7 @@
     },
     {
         "name": "Plasmaspende Koblenz",
-        "address": "L\u00c3\u00b6hrstra\u00c3\u0178e 23",
+        "address": "L\u00f6hrstra\u00dfe 23",
         "zip": "56068",
         "city": "Koblenz",
         "lat": "50.3594555",
@@ -2080,7 +2080,7 @@
     },
     {
         "name": "Transfusionszentrale ",
-        "address": "Augustusplatz (Geb\u00c3\u00a4ude 905)",
+        "address": "Augustusplatz (Geb\u00e4ude 905)",
         "zip": "55131",
         "city": "Mainz",
         "lat": "49.9934082",
@@ -2100,7 +2100,7 @@
         "erythrocyte_donation": ""
     },
     {
-        "name": "Zentrum f\u00c3\u00bcr Transfusionsmedizin",
+        "name": "Zentrum f\u00fcr Transfusionsmedizin",
         "address": "Burgweg 5-7",
         "zip": "55543",
         "city": "Bad Kreuznach",
@@ -2145,7 +2145,7 @@
         "name": "Blutspendezentrale Saar-Pfalz",
         "address": "Theodor-Heuss-Str. 128",
         "zip": "66119",
-        "city": "Saarbr\u00c3\u00bccken",
+        "city": "Saarbr\u00fccken",
         "lat": "49.2206067",
         "lon": "6.9934156",
         "mon": "8:00 bis 15:00 Uhr",
@@ -2164,7 +2164,7 @@
     },
     {
         "name": "Blutspendedienst ",
-        "address": "Ringstra\u00c3\u0178e 52",
+        "address": "Ringstra\u00dfe 52",
         "zip": "66421",
         "city": "Homburg/Saar",
         "lat": "49.3120675",
@@ -2184,7 +2184,7 @@
         "erythrocyte_donation": "nein"
     },
     {
-        "name": "Institut f\u00c3\u00bcr Transfusionsmedizin",
+        "name": "Institut f\u00fcr Transfusionsmedizin",
         "address": "Johannisallee 32 | Haus 8",
         "zip": "4103",
         "city": "Leipzig",
@@ -2205,17 +2205,17 @@
         "erythrocyte_donation": "ja "
     },
     {
-        "name": "Institut f\u00c3\u00bcr Transfusionsmedizin ",
+        "name": "Institut f\u00fcr Transfusionsmedizin ",
         "address": "Blasewitzer Str. 68/70",
         "zip": "1307",
         "city": "Dresden",
         "lat": "51.05291",
         "lon": "13.78018",
-        "mon": "06.30 \u00e2\u20ac\u201c 19.00",
-        "tue": "12.00 \u00e2\u20ac\u201c 19.00",
-        "wed": "12.00 \u00e2\u20ac\u201c 19.00",
-        "thu": "12.00 \u00e2\u20ac\u201c 19.00",
-        "fri": "06.30 \u00e2\u20ac\u201c 19.00",
+        "mon": "06.30 \u2013 19.00",
+        "tue": "12.00 \u2013 19.00",
+        "wed": "12.00 \u2013 19.00",
+        "thu": "12.00 \u2013 19.00",
+        "fri": "06.30 \u2013 19.00",
         "sat": "Nein",
         "sun": "",
         "url": "https://www.blutspende-nordost.de/blutspende/termine-zur-blutspende/blutspende-dresden.php",
@@ -2226,21 +2226,21 @@
         "erythrocyte_donation": ""
     },
     {
-        "name": "Institut f\u00c3\u00bcr Transfusionsmedizin ",
-        "address": "Zeisigwaldstra\u00c3\u0178e 103",
+        "name": "Institut f\u00fcr Transfusionsmedizin ",
+        "address": "Zeisigwaldstra\u00dfe 103",
         "zip": "9130",
         "city": "Chemnitz",
         "lat": "50.8407341",
         "lon": "12.962506",
-        "mon": "08.00 \u00e2\u20ac\u201c 12.00 Uhr und",
-        "tue": "08.00 \u00e2\u20ac\u201c 12.00 Uhr und",
-        "wed": "08.00 \u00e2\u20ac\u201c 12.00 Uhr und",
-        "thu": "08.00 \u00e2\u20ac\u201c 12.00 Uhr und",
-        "fri": "08.00 \u00e2\u20ac\u201c 12.00",
+        "mon": "08.00 \u2013 12.00 Uhr und",
+        "tue": "08.00 \u2013 12.00 Uhr und",
+        "wed": "08.00 \u2013 12.00 Uhr und",
+        "thu": "08.00 \u2013 12.00 Uhr und",
+        "fri": "08.00 \u2013 12.00",
         "sat": "",
         "sun": "",
         "url": "https://www.blutspende-nordost.de/blutspende/termine-zur-blutspende/blutspende-plasmaspende-chemnitz.php",
-        "phone": "0371 43220\u00e2\u20ac\u201c0",
+        "phone": "0371 43220\u20130",
         "whole_blood_donation": "ja",
         "platelet_donation": "nein",
         "plasma_donation": "ja",
@@ -2269,7 +2269,7 @@
     },
     {
         "name": "Haema Plasmaspendezentrum Dresden-Elbepark",
-        "address": "Stadthaus | Lommatzscher Stra\u00c3\u0178e 82",
+        "address": "Stadthaus | Lommatzscher Stra\u00dfe 82",
         "zip": "1139",
         "city": "Dresden",
         "lat": "51.0823083",
@@ -2290,7 +2290,7 @@
     },
     {
         "name": "Haema Blutspendezentrum Dresden-World Trade Center",
-        "address": "Rosenstra\u00c3\u0178e 30",
+        "address": "Rosenstra\u00dfe 30",
         "zip": "1067",
         "city": "Dresden",
         "lat": "51.04808999999999",
@@ -2332,7 +2332,7 @@
     },
     {
         "name": "Haema Blutspendezentrum Freiberg",
-        "address": "Bahnhofstra\u00c3\u0178e 40-42",
+        "address": "Bahnhofstra\u00dfe 40-42",
         "zip": "9599",
         "city": "Freiberg",
         "lat": "50.9117164",
@@ -2352,10 +2352,10 @@
         "erythrocyte_donation": ""
     },
     {
-        "name": "Haema Blutspendezentrum G\u00c3\u00b6rlitz",
+        "name": "Haema Blutspendezentrum G\u00f6rlitz",
         "address": "CityCenter Frauentor | An der Frauenkirche 12",
         "zip": "2826",
-        "city": "G\u00c3\u00b6rlitz",
+        "city": "G\u00f6rlitz",
         "lat": "51.15170999999999",
         "lon": "14.987955",
         "mon": "7:00 - 18:30 Uhr",
@@ -2374,7 +2374,7 @@
     },
     {
         "name": "Haema Blutspendezentrum Grimma",
-        "address": "K\u00c3\u00a4the-Kollwitz-Stra\u00c3\u0178e 6",
+        "address": "K\u00e4the-Kollwitz-Stra\u00dfe 6",
         "zip": "4668",
         "city": "Grimma",
         "lat": "51.23798739999999",
@@ -2416,7 +2416,7 @@
     },
     {
         "name": "Haema Blutspendezentrum Leipzig-Gohlis Arkaden",
-        "address": "L\u00c3\u00bctzowstra\u00c3\u0178e 11",
+        "address": "L\u00fctzowstra\u00dfe 11",
         "zip": "4155",
         "city": " Leipzig",
         "lat": "51.3618371",
@@ -2437,7 +2437,7 @@
     },
     {
         "name": "Haema Blutspendezentrum Leipzig-Connewitz",
-        "address": "Karl-Liebknecht-Stra\u00c3\u0178e 153-155",
+        "address": "Karl-Liebknecht-Stra\u00dfe 153-155",
         "zip": "4277",
         "city": "Leipzig",
         "lat": "51.3119031",
@@ -2479,7 +2479,7 @@
     },
     {
         "name": "Haema Blutspendezentrum Zwickau",
-        "address": "Zwickau Arcaden | Marienstra\u00c3\u0178e 3/1",
+        "address": "Zwickau Arcaden | Marienstra\u00dfe 3/1",
         "zip": "8056",
         "city": "Zwickau",
         "lat": "50.71895199999999",
@@ -2584,7 +2584,7 @@
     },
     {
         "name": "Medizinisches Institut Uniklinik Halle",
-        "address": "Ernst-Grube-Stra\u00c3\u0178e 40",
+        "address": "Ernst-Grube-Stra\u00dfe 40",
         "zip": "6120",
         "city": "Halle an der Saale",
         "lat": "51.5013753",
@@ -2604,7 +2604,7 @@
         "erythrocyte_donation": ""
     },
     {
-        "name": "Institut f\u00c3\u00bcr Transfusionsmedizin und Immunh\u00c3\u00a4matologie",
+        "name": "Institut f\u00fcr Transfusionsmedizin und Immunh\u00e4matologie",
         "address": "Leipziger Str. 44",
         "zip": "39120",
         "city": "Magdeburg",
@@ -2647,7 +2647,7 @@
     },
     {
         "name": "Blutspendedienst Diakonie",
-        "address": "Marienh\u00c3\u00b6lzungsweg 2",
+        "address": "Marienh\u00f6lzungsweg 2",
         "zip": "24939",
         "city": "Flensburg",
         "lat": "54.7902378",
@@ -2668,7 +2668,7 @@
     },
     {
         "name": "UKSH Bluspendezentrum",
-        "address": "Michaelisstra\u00c3\u0178e 5",
+        "address": "Michaelisstra\u00dfe 5",
         "zip": "24105",
         "city": "Kiel",
         "lat": "54.33094999999999",
@@ -2689,7 +2689,7 @@
     },
     {
         "name": "UKSH Bluspendezentrum",
-        "address": "Citti-Park | M\u00c3\u00bchlendamm 1",
+        "address": "Citti-Park | M\u00fchlendamm 1",
         "zip": "24113",
         "city": "Kiel",
         "lat": "54.3131711",
@@ -2712,7 +2712,7 @@
         "name": "UKSH Bluspendezentrum",
         "address": "Ratzeburger Allee 160",
         "zip": "23562",
-        "city": "L\u00c3\u00bcbeck",
+        "city": "L\u00fcbeck",
         "lat": "53.8342754",
         "lon": "10.703648",
         "mon": "8:00-13:00",
@@ -2733,7 +2733,7 @@
         "name": "UKSH Bluspendezentrum",
         "address": "Citti-Park | Herrenholz 14",
         "zip": "23556",
-        "city": "L\u00c3\u00bcbeck",
+        "city": "L\u00fcbeck",
         "lat": "53.8579081",
         "lon": "10.6283327",
         "mon": "13:00-18:00",
@@ -2752,9 +2752,9 @@
     },
     {
         "name": "Haema Blutspendezentrum ",
-        "address": "Sandstra\u00c3\u0178e 1",
+        "address": "Sandstra\u00dfe 1",
         "zip": "23552",
-        "city": "L\u00c3\u00bcbeck",
+        "city": "L\u00fcbeck",
         "lat": "53.8656139",
         "lon": "10.6855996",
         "mon": "8:00-19:00",
@@ -2773,7 +2773,7 @@
     },
     {
         "name": "Blutspendedienst Itzehoe",
-        "address": "Robert-Koch-Stra\u00c3\u0178e 2",
+        "address": "Robert-Koch-Stra\u00dfe 2",
         "zip": "25524",
         "city": "Itzehoe",
         "lat": "53.94222689999999",
@@ -2793,10 +2793,10 @@
         "erythrocyte_donation": ""
     },
     {
-        "name": "Blutspendezentrum Neum\u00c3\u00bcnster",
+        "name": "Blutspendezentrum Neum\u00fcnster",
         "address": "",
         "zip": "23534",
-        "city": "Neum\u00c3\u00bcnster",
+        "city": "Neum\u00fcnster",
         "lat": "54.0729431",
         "lon": "9.9840158",
         "mon": "",
@@ -2814,8 +2814,8 @@
         "erythrocyte_donation": ""
     },
     {
-        "name": "Institut f\u00c3\u00bcr Transfusionsmedizin Suhl",
-        "address": "Albert-Schweitzer-Stra\u00c3\u0178e 15",
+        "name": "Institut f\u00fcr Transfusionsmedizin Suhl",
+        "address": "Albert-Schweitzer-Stra\u00dfe 15",
         "zip": "98527",
         "city": "Suhl",
         "lat": "50.6033853",
@@ -2836,7 +2836,7 @@
     },
     {
         "name": "Blut- und Plasmaspendestation Eisenach",
-        "address": "M\u00c3\u00bchlh\u00c3\u00a4user Stra\u00c3\u0178e 27",
+        "address": "M\u00fchlh\u00e4user Stra\u00dfe 27",
         "zip": "99817",
         "city": "Eisenach",
         "lat": "50.9825282",
@@ -2878,7 +2878,7 @@
     },
     {
         "name": "Blut- und Plasmaspendestation Erfurt",
-        "address": "Mainzer Stra\u00c3\u0178e 36-37",
+        "address": "Mainzer Stra\u00dfe 36-37",
         "zip": "99089",
         "city": "Erfurt",
         "lat": "51.00502059999999",
@@ -2920,8 +2920,8 @@
     },
     {
         "name": "Haema Blutspendezentrum Gera",
-        "address": "Breitscheidstra\u00c3\u0178e 1-5",
-        "zip": "\u00c2\u00b407545",
+        "address": "Breitscheidstra\u00dfe 1-5",
+        "zip": "\u00b407545",
         "city": "Gera",
         "lat": "50.8774024",
         "lon": "12.0788907",
@@ -2941,7 +2941,7 @@
     },
     {
         "name": "Haema Blutspendezentrum Gotha",
-        "address": "Oststra\u00c3\u0178e 51",
+        "address": "Oststra\u00dfe 51",
         "zip": "99867",
         "city": "Gotha",
         "lat": "50.9528907",
@@ -2962,8 +2962,8 @@
     },
     {
         "name": "Haema Blutspendezentrum Jena",
-        "address": "Goethestra\u00c3\u0178e 3a",
-        "zip": "\u00c2\u00b407743",
+        "address": "Goethestra\u00dfe 3a",
+        "zip": "\u00b407743",
         "city": "Jena",
         "lat": "50.9275672",
         "lon": "11.5821893",
@@ -2983,7 +2983,7 @@
     },
     {
         "name": "Haema Blutspendezentrum Weimar",
-        "address": "Steubenstra\u00c3\u0178e 15",
+        "address": "Steubenstra\u00dfe 15",
         "zip": "99423",
         "city": "Weimar",
         "lat": "50.9772574",

@@ -1,4 +1,5 @@
 import psycopg2
+import psycopg2.extras
 import sys
 import json
 import convert2
@@ -19,7 +20,7 @@ def initialize_database():
 
         i = 0
 
-        for j in importlist[1:]:
+        for j in importlist:
             sql_string = 'INSERT INTO Blutspendezentren VALUES (' + str(i)
             for key in j:
                 if not j[key] == '':
@@ -30,7 +31,7 @@ def initialize_database():
             cur.execute(sql_string)
             i += 1
 
-        cur.execute("CREATE TABLE Spender (Id INTEGER PRIMARY KEY, vorname VARCHAR(50), nachname VARCHAR(50), email VARCHAR(100), handy VARCHAR(25), anmerkungen VARCHAR)")
+        cur.execute("CREATE TABLE Spender (Id INTEGER PRIMARY KEY, vorname VARCHAR(50), nachname VARCHAR(50), email VARCHAR(100), handy VARCHAR(25))")
         cur.execute("CREATE TABLE Termin (Id INTEGER PRIMARY KEY, Blutspendezentrum INTEGER REFERENCES Blutspendezentren(id), Spender INTEGER REFERENCES Spender(Id), Datum DATE, Uhrzeit TIME, Kategorie VARCHAR(12), Bestaetigt VARCHAR(4), Anmerkungen VARCHAR)")
          # Kategorie = Wunsch/ Alternativ 1/ Alternativ 2; Bestaetigt = Ja / Nein
 
@@ -70,7 +71,7 @@ def update_blutspendezentren_with_json():
         cur.execute('SELECT MAX(Id) FROM Blutspendezentren')
         i = cur.fetchall()[0][0] + 1
 
-        for j in importlist[1:]:
+        for j in importlist:
             if j['name'] in table:
                 sql_string = 'UPDATE Blutspendezentren SET '
                 for key in j:
@@ -105,4 +106,104 @@ def update_blutspendezentren_with_json():
         if con:
             con.close()
 
+
+def get_blutspendezentren_json():
+    con = None
+
+    try:
+        con = psycopg2.connect(
+            "host='blutspendekarte.de' dbname='blutspendekarte' user='blutspendekarte' password='IchBin1Alpaka'")
+        cur = con.cursor(cursor_factory=psycopg2.extras.RealDictCursor)
+        cur.execute("SELECT * FROM Blutspendezentren")
+        FOUT = open("blutspendezentren.json", "w")
+        json.dump(cur.fetchall(), FOUT, indent=4)
+        FOUT.close()
+
+    except psycopg2.DatabaseError as e:
+        if con:
+            con.rollback()
+
+        print('Error %s' % e)
+        sys.exit(1)
+
+    finally:
+        if con:
+            con.close()
+
+
+def add_appoitment(importfile):
+    con = None
+
+    try:
+        con = psycopg2.connect(
+        "host='blutspendekarte.de' dbname='blutspendekarte' user='blutspendekarte' password='IchBin1Alpaka'")
+        cur = con.cursor()
+
+        importfile = open("output.json", "r")
+        importlist = json.loads(importfile.read())
+        importfile.close()
+
+        i = 0
+
+        for j in importlist[1:]:
+            sql_string = 'INSERT INTO Spender VALUES (' + str(i)
+            for key in j:
+                if not j[key] == '':
+                    sql_string = sql_string + ', \'' + j[key] + '\''
+                else:
+                    sql_string = sql_string + ', NULL'
+            sql_string = sql_string + ' )'
+            cur.execute(sql_string)
+            i += 1
+
+        i = 0
+
+        for j in importlist[1:]:
+            sql_string = 'INSERT INTO Termine VALUES (' + str(i)
+            for key in j:
+                if not j[key] == '':
+                    sql_string = sql_string + ', \'' + j[key] + '\''
+                else:
+                    sql_string = sql_string + ', NULL'
+            sql_string = sql_string + ' )'
+            cur.execute(sql_string)
+            i += 1
+
+        con.commit()
+
+    except psycopg2.DatabaseError as e:
+        if con:
+            con.rollback()
+
+        print('Error %s' % e)
+        sys.exit(1)
+
+    finally:
+        if con:
+            con.close()
+
+
+# Nur fur jetzt beim Entwickeln: Datenbank-Schema anpassen
+def update():
+    con = None
+
+    try:
+        con = psycopg2.connect(
+            "host='localhost' dbname='blutspendekartedb' user='postgres' password=''")
+        cur = con.cursor()
+        cur.execute("ALTER TABLE Spender DROP COLUMN anmerkungen")
+        con.commit()
+
+    except psycopg2.DatabaseError as e:
+        if con:
+            con.rollback()
+
+        print('Error %s' % e)
+        sys.exit(1)
+
+    finally:
+        if con:
+            con.close()
+
 update_blutspendezentren_with_json()
+get_blutspendezentren_json()
