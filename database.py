@@ -131,7 +131,8 @@ def get_blutspendezentren_json():
             con.close()
 
 
-def add_appoitment(importfile):
+# TODO: pruefen, ob Termine existieren, mit denen dieser Termin zeitlich kollidiert
+def add_appoitment(jsonfile):
     con = None
 
     try:
@@ -139,35 +140,58 @@ def add_appoitment(importfile):
         "host='blutspendekarte.de' dbname='blutspendekarte' user='blutspendekarte' password='IchBin1Alpaka'")
         cur = con.cursor()
 
-        importfile = open("output.json", "r")
-        importlist = json.loads(importfile.read())
+        importfile = open(jsonfile, "r")
+        j = json.loads(importfile.read())
         importfile.close()
 
-        i = 0
+        cur.execute('SELECT Id, vorname, nachname, email FROM Spender WHERE vorname = \'' + j["vorname"] + '\' AND nachname = \'' + j["nachname"] + '\' AND email =\'' + j["email"] + '\'')
+        rows = cur.fetchall()
+        if not rows:  # Wenn Spender noch nicht in der Datenbank
+            cur.execute('SELECT MAX(Id) FROM Spender')
+            spender_id = cur.fetchall()[0][0]
+            if spender_id is not None:
+                spender_id += 1
+            else:
+                spender_id = 0
+            sql_string_spender = 'INSERT INTO Spender (Id, vorname, nachname, email, handy) VALUES (\'' + str(spender_id) + '\', \'' + j["vorname"] +  '\', \'' + j["nachname"] + '\', \'' + j["email"] + '\', \'' + j["handynummer"] + '\')'
+            cur.execute(sql_string_spender)
+        else:
+            spender_id = rows[0][0]
 
-        for j in importlist[1:]:
-            sql_string = 'INSERT INTO Spender VALUES (' + str(i)
-            for key in j:
-                if not j[key] == '':
-                    sql_string = sql_string + ', \'' + j[key] + '\''
-                else:
-                    sql_string = sql_string + ', NULL'
-            sql_string = sql_string + ' )'
-            cur.execute(sql_string)
-            i += 1
+        cur.execute('SELECT MAX(Id) FROM Termin')
+        termin_id = cur.fetchall()[0][0]
+        if termin_id is not None:
+            termin_id += 1
+        else:
+            termin_id = 0
 
-        i = 0
+        sql_string_wunschtermin = 'INSERT INTO Termin (Id, Blutspendezentrum, Spender, Datum, Uhrzeit, Kategorie, Anmerkungen) VALUES (\'' + str(termin_id) + '\', \'' + j["Id"] +  '\', \'' + str(spender_id) + '\', \'' + j["termin_1_datum"] + '\', \'' + j["termin_1_zeit"] + '\', \'Wunsch\''
+        if not j["anmerkungen"] == '':
+            sql_string_wunschtermin = sql_string_wunschtermin +  ', \'' + j["anmerkungen"] +'\')'
+        else:
+            sql_string_wunschtermin = sql_string_wunschtermin + ', NULL)'
+        cur.execute(sql_string_wunschtermin)
 
-        for j in importlist[1:]:
-            sql_string = 'INSERT INTO Termine VALUES (' + str(i)
-            for key in j:
-                if not j[key] == '':
-                    sql_string = sql_string + ', \'' + j[key] + '\''
-                else:
-                    sql_string = sql_string + ', NULL'
-            sql_string = sql_string + ' )'
-            cur.execute(sql_string)
-            i += 1
+        if not j["termin_2_datum"] == '':
+            termin_id += 1
+            sql_string_alt1termin = 'INSERT INTO Termin (Id, Blutspendezentrum, Spender, Datum, Uhrzeit, Kategorie, Anmerkungen) VALUES (\'' + str(
+            termin_id) + '\', \'' + j["Id"] + '\', \'' + str(spender_id) + '\', \'' + j["termin_2_datum"] + '\', \'' + j["termin_2_zeit"] + '\', \'Alternativ 1\''
+            if not j["anmerkungen"] == '':
+                sql_string_alt1termin = sql_string_alt1termin +  ', \'' + j["anmerkungen"] +'\')'
+            else:
+                sql_string_alt1termin = sql_string_alt1termin + ', NULL)'
+            cur.execute(sql_string_alt1termin)
+
+        if not j["termin_3_datum"] == '':
+            termin_id += 1
+            sql_string_alt2termin = 'INSERT INTO Termin (Id, Blutspendezentrum, Spender, Datum, Uhrzeit, Kategorie, Anmerkungen) VALUES (\'' + str(
+            termin_id) + '\', \'' + j["Id"] + '\', \'' + str(spender_id) + '\', \'' + j["termin_3_datum"] + '\', \'' + \
+                                j["termin_3_zeit"] + '\', \'Alternativ 2\''
+            if not j["anmerkungen"] == '':
+                sql_string_alt2termin = sql_string_alt2termin +  ', \'' + j["anmerkungen"] +'\')'
+            else:
+                sql_string_alt2termin = sql_string_alt2termin + ', NULL)'
+            cur.execute(sql_string_alt2termin)
 
         con.commit()
 
