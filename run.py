@@ -1,4 +1,6 @@
-from app import app
+from flask import Flask
+import routes.BloodDonorCentre
 
-if __name__ == '__main__':
-    app.run()
+app = Flask(__name__)
+app.register_blueprint(routes.BloodDonorCentre.blueprint, url_prefix='/bloodDonorCentre')
+app.run()
