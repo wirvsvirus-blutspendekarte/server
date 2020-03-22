@@ -1,9 +1,14 @@
 import psycopg2
 import sys
 import json
+from convert2 import getData
+import json
+import requests
 
 
 con = None
+
+getData()
 
 try:
     con = psycopg2.connect("host='blutspendekarte.de' dbname='blutspendekarte' user='blutspendekarte' password='IchBin1Alpaka'")
