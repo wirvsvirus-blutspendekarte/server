@@ -13,7 +13,7 @@ def get_all():
 
 @blueprint.route('/getMatching')
 def get_matching():
-    search_string = '%%' + request.args.get('q') + '%%'
+    search_string = '%%' + (request.args.get('q').lower()) + '%%'
     cursor = db.get_connection().cursor(cursor_factory=psycopg2.extras.RealDictCursor)
-    cursor.execute("SELECT * FROM Blutspendezentren WHERE Name LIKE %s", (search_string, ))
+    cursor.execute("SELECT * FROM Blutspendezentren WHERE (lower(name) LIKE %s) OR lower(name) ILIKE %s LIMIT 10", (search_string, search_string, ))
     return json.dumps(cursor.fetchall(), indent=4)
