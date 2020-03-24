@@ -12,6 +12,7 @@ def initialize_database():
     try:
         con = psycopg2.connect("host='blutspendekarte.de' dbname='blutspendekarte' user='blutspendekarte' password='IchBin1Alpaka'")
         cur = con.cursor()
+        cur.execute("SET CLIENT_ENCODING TO 'UTF8'")
         cur.execute("CREATE TABLE Blutspendezentren (Id INTEGER PRIMARY KEY, name VARCHAR(100), address VARCHAR(100), zip VARCHAR(7), city VARCHAR(100), lat VARCHAR(100), lon VARCHAR(100), mon VARCHAR(100), tue VARCHAR(100), wed VARCHAR(100), thu VARCHAR(100), fri VARCHAR(100), sat VARCHAR(100), sun VARCHAR(100), url VARCHAR(512), phone VARCHAR(100), whole_blood_donation VARCHAR(100), platelet_donation VARCHAR(100), plasma_donation VARCHAR(100), erythrocyte_donation VARCHAR(100))")
 
         importfile = open("output.json", "r")
@@ -57,6 +58,7 @@ def update_blutspendezentren_with_json():
         con = psycopg2.connect(
             "host='blutspendekarte.de' dbname='blutspendekarte' user='blutspendekarte' password='IchBin1Alpaka'")
         cur = con.cursor()
+        cur.execute("SET CLIENT_ENCODING TO 'UTF8'")
 
         importfile = open("output.json", "r")
         importlist = json.loads(importfile.read())
@@ -114,6 +116,7 @@ def get_blutspendezentren_json():
         con = psycopg2.connect(
             "host='blutspendekarte.de' dbname='blutspendekarte' user='blutspendekarte' password='IchBin1Alpaka'")
         cur = con.cursor(cursor_factory=psycopg2.extras.RealDictCursor)
+        cur.execute("SET CLIENT_ENCODING TO 'UTF8'")
         cur.execute("SELECT * FROM Blutspendezentren")
         FOUT = open("blutspendezentren.json", "w")
         json.dump(cur.fetchall(), FOUT, indent=4)
@@ -139,6 +142,7 @@ def add_appoitment(jsonfile):
         con = psycopg2.connect(
         "host='blutspendekarte.de' dbname='blutspendekarte' user='blutspendekarte' password='IchBin1Alpaka'")
         cur = con.cursor()
+        cur.execute("SET CLIENT_ENCODING TO 'UTF8'")
 
         importfile = open(jsonfile, "r")
         j = json.loads(importfile.read())
@@ -215,6 +219,7 @@ def update():
         con = psycopg2.connect(
             "host='localhost' dbname='blutspendekartedb' user='postgres' password=''")
         cur = con.cursor()
+        cur.execute("SET CLIENT_ENCODING TO 'UTF8'")
         cur.execute("ALTER TABLE Spender DROP COLUMN anmerkungen")
         con.commit()
 
