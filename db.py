@@ -1,11 +1,8 @@
-import psycopg2
-import psycopg2.extras
+from peewee import *
 
-
-def get_connection():
-    return psycopg2.connect(
-        "host='blutspendekarte.de' "
-        "dbname='blutspendekarte' "
-        "user='blutspendekarte' "
-        "password='IchBin1Alpaka'"
-    )
+db = PostgresqlDatabase(
+    database='blutspendekarte',
+    user='blutspendekarte',
+    host='blutspendekarte.de',
+    password='IchBin1Alpaka'
+)
