@@ -13,3 +13,4 @@ from app.resources.version import Version
 
 api = Api(app)
 api.add_resource(Version, "/api/version")
+
