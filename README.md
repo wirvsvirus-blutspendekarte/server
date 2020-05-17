@@ -1,0 +1,4 @@
+# server
+In this project, we develop a backend for the website 'www.blutspendekarte.de', which provides an overview of the centra in Germany where you can donate blood. It was started as part of the Hackathon #wirvsvirus, and is a work in progress. In the future, we want to add a color code to show how long the current waiting times in the centra are and a tool to make blood donation appoitments via the website.
+
+In diesem Projekt entwickeln wir ein Backend für die Website 'www.blutspendekarte.de', die einen Überblick über die Zentren in Deutschland gibt, in denen Sie Blut spenden können. Es wurde im Rahmen des Hackathons #wirvsvirus gestartet und ist ein work in progress. In Zukunft wollen wir einen Farbcode nach Ampelsystem hinzufügen, der anzeigt, wie lang die aktuellen Wartezeiten in den jeweiligen Zentren sind, und ein Tool, um Termine für eine Blutspende über die Website zu machen.
