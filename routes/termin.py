@@ -28,11 +28,7 @@ def map_to_dict(termin):
 def create():
     termin = Termin()
     termin.id = uuid.uuid4()
-    try:
-        termin.einrichtung = Einrichtung.select().where(Einrichtung.id == request.json["einrichtung"]).get_or_none()
-    except Einrichtung.DoesNotExist:
-        einrichtung_json = json.loads(Einrichtung.create())
-        termin.einrichtung = Einrichtung.select().where(Einrichtung.id == einrichtung_json["id"]).get()
+    termin.einrichtung = Einrichtung.select().where(Einrichtung.id == request.json["einrichtung"]).get()
     try:
         termin.spender = Person.select().where(Person.id == request.json["spender"]).get()
     except Person.DoesNotExist:
@@ -51,11 +47,7 @@ def create():
 @blueprint.route('edit', methods=['POST'])
 def edit():
     termin = Termin.get_by_id(request.json["id"])
-    try:
-        termin.einrichtung = Einrichtung.select().where(Einrichtung.id == request.json["einrichtung"]).get_or_none()
-    except Einrichtung.DoesNotExist:
-        einrichtung_json = json.loads(Einrichtung.create())
-        termin.einrichtung = Einrichtung.select().where(Einrichtung.id == einrichtung_json["id"]).get()
+    termin.einrichtung = Einrichtung.select().where(Einrichtung.id == request.json["einrichtung"]).get()
     try:
         termin.spender = Person.select().where(Person.id == request.json["spender"]).get()
     except Person.DoesNotExist:
