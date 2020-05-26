@@ -28,7 +28,7 @@ def create():
     wartezeit.meldezeit = datetime.now()
     wartezeit.save(force_insert=True)
 
-    return json.dumps({"success": True})
+    return json.dumps(map_to_dict(wartezeit), indent=4)
 
 
 @blueprint.route('edit', methods=['POST'])
@@ -38,7 +38,7 @@ def edit():
     wartezeit.meldezeit = datetime.now()
     wartezeit.save()
 
-    return json.dumps({"success": True})
+    return json.dumps(map_to_dict(wartezeit), indent=4)
 
 
 @blueprint.route('delete', methods=['POST'])
@@ -46,4 +46,4 @@ def delete():
     wartezeit = Wartezeit.get_by_id(request.form["id"])
     wartezeit.delete_instance()
 
-    return json.dumps({"success": True})
+    return json.dumps(map_to_dict(wartezeit), indent=4)
